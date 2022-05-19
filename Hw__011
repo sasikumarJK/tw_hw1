@@ -1,0 +1,40 @@
+class Icecream:
+  shop="Ice creams"
+  address="72, KTR road, Chennai-17"
+  building=" Pink "
+  con_no="91501387658"
+
+  def __init__(self,type,flavour,cost):
+    self.type=type
+    self.flavour=flavour
+    self.cost=cost
+
+class Types:
+  
+
+  def __init__(self,types,items,price):
+    self.types="  ***stick,cone,cup"
+    self.items="  ***Vannila, Chocolate, strawberry"
+    self.price="  *** 10,20,30"
+    
+
+  
+
+Menu= Icecream("cone","vennila",30)
+Menu_list=Types('s','a','p')
+
+
+print("Welcome !!! ")
+print("The shop detail:")
+print("Welcome to Chil Ice bar!")
+print(" Builing colour is",Menu.building)
+print(" Address:\n",Menu.address)
+print(" Contact Number is:",Menu.con_no)
+
+print("Menu card:")
+print(Menu_list.types)
+print(Menu_list.items)
+print(Menu_list.price)
+print("types:",Menu.type)
+print("flavour:",Menu.flavour)
+print("cost:Rs.",Menu.cost)
